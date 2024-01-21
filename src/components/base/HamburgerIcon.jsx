@@ -9,31 +9,31 @@ const HamburgerIcon = ({
   lineProps = null,
   ...props
 }) => {
-  const variant = showMenu ? "openedMenu" : "closedMenu";
+  const variant = showMenu ? "opened" : "closed";
   const top = {
-    closedMenu: {
+    closed: {
       rotate: 0,
       translateY: 0,
     },
-    openedMenu: {
+    opened: {
       rotate: 45,
       translateY: 2,
     },
   };
   const center = {
-    closedMenu: {
+    closed: {
       opacity: 1,
     },
-    openedMenu: {
+    opened: {
       opacity: 0,
     },
   };
   const bottom = {
-    closedMenu: {
+    closed: {
       rotate: 0,
       translateY: 0,
     },
-    openedMenu: {
+    opened: {
       rotate: -45,
       translateY: -2,
     },
