@@ -36,11 +36,13 @@ const Home = () => {
           </h3>
 
           <p className="home__description">
-            A passionate frontend developer on a mission to turn creative
+            Crafting elegantly simple designs and translating them into flawless
+            code is my forte, and I absolutely love the work I do.
+            {/* A passionate frontend developer on a mission to turn creative
             visions into interactive realities. With a blend of cutting-edge
             technology and pixel-perfect precision, I bring websites to life
             that not only look stunning but also deliver exceptional user
-            experiences.
+            experiences. */}
           </p>
           <Link to="/about" className="button">
             More About Me{" "}

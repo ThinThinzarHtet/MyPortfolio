@@ -11,6 +11,7 @@
 
 .show-menu {
   left: 0;
+  z-index: 2;
 }
 .nav__link {
   display: flex;
@@ -52,6 +53,7 @@
   background-color: var(--container-color);
   border-radius: 5px;
   padding: 12px 10px;
+  z-index: 2;
 }
 
 .nav__toggle span {
