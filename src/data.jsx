@@ -21,12 +21,39 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 import { MdDevicesOther } from "react-icons/md";
 
-import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import vista1 from "./assets/projects/vistaVroom/vista1.png";
+import vista2 from "./assets/projects/vistaVroom/vista2.png";
+import vista3 from "./assets/projects/vistaVroom/vista3.png";
+import vista4 from "./assets/projects/vistaVroom/vista4.png";
+
+import note1 from "./assets/projects/notesApp/note1.png";
+import note2 from "./assets/projects/notesApp/note2.png";
+import note3 from "./assets/projects/notesApp/note3.png";
+import note4 from "./assets/projects/notesApp/note4.png";
+import note5 from "./assets/projects/notesApp/note5.png";
+import note6 from "./assets/projects/notesApp/note6.png";
+import note7 from "./assets/projects/notesApp/note7.png";
+
+import fitness1 from "./assets/projects/fitnessApp/fitness1.png";
+import fitness2 from "./assets/projects/fitnessApp/fitness2.png";
+import fitness3 from "./assets/projects/fitnessApp/fitness3.png";
+import fitness4 from "./assets/projects/fitnessApp/fitness4.png";
+
+import food1 from "./assets/projects/omniFood/food1.png";
+import food2 from "./assets/projects/omniFood/food2.png";
+import food3 from "./assets/projects/omniFood/food3.png";
+import food4 from "./assets/projects/omniFood/food4.png";
+import food5 from "./assets/projects/omniFood/food5.png";
+import food6 from "./assets/projects/omniFood/food6.png";
+
+import numguess1 from "./assets/projects/guessNumber/numguess1.png";
+import numguess2 from "./assets/projects/guessNumber/numguess2.png";
+import numguess3 from "./assets/projects/guessNumber/numguess3.png";
+
+import dice1 from "./assets/projects/diceGame/dice1.png";
+import dice2 from "./assets/projects/diceGame/dice2.png";
+import dice3 from "./assets/projects/diceGame/dice3.png";
+import dice4 from "./assets/projects/diceGame/dice4.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -66,68 +93,6 @@ export const links = [
     name: "Contact",
     icon: <FaEnvelopeOpen className="nav__icon" />,
     path: "/contact",
-  },
-];
-
-export const personalInfo = [
-  {
-    id: 1,
-    title: "First Name : ",
-    description: "Steve",
-  },
-
-  {
-    id: 2,
-    title: "Last Name : ",
-    description: "Milner",
-  },
-
-  {
-    id: 3,
-    title: "Age : ",
-    description: "27 Years",
-  },
-
-  {
-    id: 4,
-    title: "Nationality : ",
-    description: "Tunisian",
-  },
-
-  {
-    id: 5,
-    title: "Freelance : ",
-    description: "Available",
-  },
-
-  {
-    id: 6,
-    title: "Address : ",
-    description: "Tunis",
-  },
-
-  {
-    id: 7,
-    title: "Phone : ",
-    description: "+21621184010",
-  },
-
-  {
-    id: 8,
-    title: "Email : ",
-    description: "you@mail.com",
-  },
-
-  {
-    id: 9,
-    title: "Skype : ",
-    description: "steve.milner",
-  },
-
-  {
-    id: 10,
-    title: "Langages : ",
-    description: "French, English",
   },
 ];
 
@@ -230,169 +195,74 @@ export const skills = [
   },
 ];
 
-export const portfolio = [
+export const projects = [
   {
     id: 1,
-    img: Work1,
-    title: "Photo Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
+    coverImg: vista1,
+    img: [vista1, vista2, vista3, vista4],
+    title: "VistaVroom",
+    description: "Simple static car rental website ui.",
+    languages: ["HTML", "CSS", "React", "Tailwind Css"],
+    sourceLink: "https://github.com/ThinThinzarHtet/VistaVroom",
+    previewLink: "https://thinthinzarhtet.github.io/VistaVroom/",
   },
 
   {
     id: 2,
-    img: Work2,
-    title: "Website Design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
+    coverImg: note2,
+    img: [note1, note2, note3, note4, note5, note6, note7],
+    title: "Notes-App",
+    description: "Simple notes taking app with crud.",
+    languages: ["HTML", "React", "TypeScript", "Bootstrap"],
+    sourceLink: "https://github.com/ThinThinzarHtet/notes-app",
+    previewLink: "https://thinthinzarhtet.github.io/notes-app",
   },
 
   {
     id: 3,
-    img: Work3,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
+    coverImg: fitness1,
+    img: [fitness1, fitness2, fitness3, fitness4],
+    title: "EVO Gym",
+    description:
+      "Case study Fitness static website to get more understanding of react, TypeScript, and framer-motion",
+    languages: ["React", "TypeScript", "Framer-motion", "Tailwind CSS"],
+    sourceLink: "https://github.com/ThinThinzarHtet/Fitness-app",
+    previewLink: "https://thinthinzarhtet.github.io/Fitness-app/",
   },
 
   {
     id: 4,
-    img: Work4,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
+    coverImg: food1,
+    img: [food1, food2, food3, food4, food5, food6],
+    title: "Omni Food",
+    description:
+      "Simple and responsive food delivery static website landing page UI",
+    languages: ["HTML", "CSS", "JavaScript", "JQuery"],
+    sourceLink: "https://github.com/ThinThinzarHtet/Omni-Food-Project",
+    previewLink: "https://thinthinzarhtet.github.io/Omni-Food-Project/",
   },
 
   {
     id: 5,
-    img: Work5,
-    title: "Landing Page",
-    details: [
-      {
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        title: "Language : ",
-        desc: "React JS, Node JS",
-      },
-      {
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
+    coverImg: numguess1,
+    img: [numguess1, numguess2, numguess3],
+    title: "Guess Number",
+    description: "Number guessing game with only Html, CSS and JavaScript",
+    languages: ["HTML", "CSS", "JavaScript"],
+    sourceLink: "https://github.com/ThinThinzarHtet/guessnumber",
+    previewLink: "https://thinthinzarhtet.github.io/guessnumber/",
   },
 
   {
     id: 6,
-    img: Work6,
-    title: "Photo Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dibble.com",
-      },
-    ],
+    coverImg: dice1,
+    img: [dice1, dice2, dice3, dice4],
+    title: "Roll The Dice",
+    description:
+      "Dice rolling game and the first player who got 20 points will win the game.",
+    languages: ["HTML", "CSS", "JavaScript"],
+    sourceLink: "https://github.com/ThinThinzarHtet/pig-dice-game",
+    previewLink: "https://thinthinzarhtet.github.io/pig-dice-game/",
   },
 ];
 

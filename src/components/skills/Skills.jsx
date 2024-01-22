@@ -1,7 +1,5 @@
 import { skills } from "../../data";
 
-import "react-circular-progressbar/dist/styles.css";
-
 const Skills = () => {
   return (
     <>
