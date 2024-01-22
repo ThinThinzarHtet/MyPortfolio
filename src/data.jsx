@@ -188,11 +188,11 @@ export const skills = [
     title: "MySQL",
     icon: <GrMysql />,
   },
-  {
-    id: 12,
-    title: "Responsive Design",
-    icon: <MdDevicesOther />,
-  },
+  // {
+  //   id: 12,
+  //   title: "Responsive Design",
+  //   icon: <MdDevicesOther />,
+  // },
 ];
 
 export const projects = [
