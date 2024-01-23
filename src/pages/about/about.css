@@ -54,7 +54,6 @@
 }
 
 /* skills css */
-
 .subtitle__center {
   text-align: center;
   margin-bottom: 50px;
@@ -64,9 +63,9 @@
 .skills__container {
   grid-template-columns: repeat(4, 1fr);
   row-gap: 40px;
-  border: 1px solid var(--text-white);
+
   padding: 20px;
-  background-color: var(--text-white);
+
   box-shadow: 0px 3px 10px var(--black);
   border-radius: 20px;
 }
@@ -80,8 +79,8 @@
   justify-content: center;
   align-items: center;
   background-color: var(--container-color);
-  /* box-shadow: 0px 3px 10px var(--first-color); */
-  box-shadow: 0 8px 0 0px var(--shadow-purple);
+
+  box-shadow: 0 8px 0 0px var(--shadow-first-color);
   color: var(--first-color);
   font-weight: var(--weight-800);
 }

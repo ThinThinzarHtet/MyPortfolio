@@ -271,59 +271,69 @@ export const themes = [
     id: 1,
     img: Theme1,
     color: "hsl(252, 35%, 51%)",
+    shadow: "hsla(252, 35%, 51%,0.877)",
   },
 
   {
     id: 2,
     img: Theme2,
     color: "hsl(4, 93%, 54%)",
+    shadow: "hsla(4, 93%, 54%, 0.877)",
   },
 
   {
     id: 3,
     img: Theme3,
     color: "hsl(271, 76%, 53%)",
+    shadow: "hsla(271, 76%, 53%, 0.877)",
   },
 
   {
     id: 4,
     img: Theme4,
-    color: "hsl(225, 73%, 57%)",
+    color: "hsl(234, 40%, 37%)",
+    shadow: "hsla(234,40%,37%,0.87)",
   },
 
   {
     id: 5,
     img: Theme5,
     color: "hsl(43, 74%, 49%)",
+    shadow: "hsla(43, 74%, 49%,0.877)",
   },
 
   {
     id: 6,
     img: Theme6,
     color: "hsl(339, 81%, 66%)",
+    shadow: "hsla(339, 81%, 66%,0.877)",
   },
 
   {
     id: 7,
     img: Theme7,
     color: "hsl(80, 61%, 50%)",
+    shadow: "hsla(80, 61%, 50%,0.877)",
   },
 
   {
     id: 8,
     img: Theme8,
     color: "hsl(19, 96%, 52%)",
+    shadow: "hsl(19, 96%, 52%,0.877)",
   },
 
   {
     id: 9,
     img: Theme9,
     color: "hsl(88, 65%, 43%)",
+    shadow: "hsl(88, 65%, 43%,0.877)",
   },
 
   {
     id: 10,
     img: Theme10,
     color: "hsl(42, 100%, 50%)",
+    shadow: "hsl(42, 100%, 50%,0.877)",
   },
 ];

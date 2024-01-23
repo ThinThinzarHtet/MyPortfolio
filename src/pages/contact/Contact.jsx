@@ -41,7 +41,7 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">Don't be Shy!</h3>
+          <h3 className="contact__title">Let&apos;s Connect!</h3>
           <p className="contact__description">
             Feel free to get in touch with me. I'm always open to discussing new
             projects, creative ideas or opportunities to be part of your
