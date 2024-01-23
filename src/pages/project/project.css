@@ -49,7 +49,7 @@
   position: fixed;
   inset: 0;
   background-color: hsla(0, 0%, 0%, 0.7);
-  z-index: 1;
+  z-index: 11;
   display: grid;
   place-items: center;
   padding: 15px;
@@ -82,7 +82,7 @@
 
 .modal__list {
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 10px;
+  row-gap: 10px !important;
   margin-bottom: 24px;
 }
 
@@ -167,58 +167,4 @@
 
 .project__view-btn button a:active {
   color: var(--black);
-}
-
-@media screen and (max-width: 976px) {
-  .project__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .project__modal-content {
-    max-width: 530px;
-  }
-
-  .modal__close {
-    width: 42px;
-    height: 42px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .project__container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .project__modal-content {
-    max-width: 500px;
-  }
-
-  .modal__close {
-    width: 40px;
-    height: 40px;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .project__modal-content {
-    max-width: 450px;
-  }
-
-  .modal__close {
-    width: 40px;
-    height: 40px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .project__modal-content {
-    max-width: 400px;
-  }
-
-  .modal__close {
-    width: 30px;
-    height: 30px;
-  }
 }

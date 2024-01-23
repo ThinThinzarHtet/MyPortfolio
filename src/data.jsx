@@ -121,7 +121,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "Dec 2015",
-    title: "Computer Engineering an Information Technology <span> YTU </span>",
+    title: "Computer Engineering and Information Technology <span> YTU </span>",
     desc: "<ul><li>A member of the YTU SE Team and my role is to create database design using MySQL.</li></ul>",
   },
 ];

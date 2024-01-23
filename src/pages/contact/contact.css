@@ -94,15 +94,3 @@
   font-size: var(--h3-font-size);
   line-height: 64px;
 }
-
-@media screen and (max-width: 750px) {
-  .contact__container {
-    grid-template-columns: 2fr 10fr;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .contact__container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}

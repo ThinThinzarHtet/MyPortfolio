@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Close from "../../assets/close.svg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -41,19 +41,6 @@ const ProjectItem = ({
                 <p key={index}>#{language}</p>
               ))}
             </div>
-            {/* <ul className="modal__list grid">
-              {details.map(({ icon, title, desc }, index) => {
-                return (
-                  <li className="modal__item" key={index}>
-                    <span className="item__icon">{icon}</span>
-                    <div>
-                      <span className="item__title">{title}</span>
-                      <span className="item__details">{desc}</span>
-                    </div>
-                  </li>
-                );
-              })}
-            </ul> */}
 
             <Carousel showArrows={true} showThumbs={false}>
               {img.map((image, index) => (

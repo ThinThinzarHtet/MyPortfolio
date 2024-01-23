@@ -84,7 +84,6 @@ const Contact = () => {
             </a>
           </div>
         </div>
-
         <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="form__input-group">
             <div className="form__input-div">

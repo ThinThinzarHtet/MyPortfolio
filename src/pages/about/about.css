@@ -90,8 +90,12 @@
   box-shadow: none;
 }
 
+.skill__ItemBox p {
+  font-size: var(--normal-font-size);
+}
+
 .skill__ItemBox span {
-  font-size: 20px;
+  font-size: var(--large-font-size);
 }
 
 /* resume */
@@ -171,22 +175,4 @@
 
 .resume__description ul {
   list-style: disc;
-}
-
-@media screen and (min-width: 1024px) {
-  .skills__container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media screen and (max-width: 976px) {
-  .skills__container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .skills__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
