@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { useState } from "react";
 
-import HamburgerIcon from "./base/hamburgerIcon";
+import HamburgerIcon from "../base/HamburgerIcon";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
