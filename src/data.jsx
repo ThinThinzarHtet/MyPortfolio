@@ -18,8 +18,9 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import { GrMysql } from "react-icons/gr";
 import { SiJavascript, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-
 import { MdDevicesOther } from "react-icons/md";
+import { RiWechatFill } from "react-icons/ri";
+import { TbBrandSvelte } from "react-icons/tb";
 
 import vista1 from "./assets/projects/vistaVroom/vista1.png";
 import vista2 from "./assets/projects/vistaVroom/vista2.png";
@@ -101,41 +102,49 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "1st Mar 2022 - 30th Sept 2023",
-    title:
-      "Junior Front-end Developer <span> Nexstack Pte Ltd (Singapore) </span>",
-    desc: "<ul><li>Involved in developing the UI pages using Next.js.</li><li>Implement new features, functionality, and capabilities on the CRM and sales portal websites using Next.js, Strapi CMS, and @emotion/react for styling.</li><li>Collaborated with UI UX designers, backend developers, and QAs.</li></ul> ",
+    year: "Mar 2024 - Present",
+    title: "Front-End Developer <span> Thibi.co </span>",
+    desc: "<ul><li>Developed responsive scrollytelling and data visualization websites using HTML5, CSS3, and JavaScript frameworks (SvelteKit and Next.js).</li><li>Collaborated closely with UI/UX designers to translate visual concepts into functional and dynamic web pages, ensuring alignment with brand standards and user expectations.</li><li>Optimized website performance through code refactoring and frontend best practices.</li></ul> ",
   },
-
   {
     id: 2,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "Feb 2022 - Sept 2023",
-    title: "Level 4 Diploma in Computing <span> NCC Education </span>",
-    desc: "<ul><li>Diploma earned after completing the L4DC program, focus on websites, databases, and soft skills for computing.</li></ul>",
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Mar 2022 - Sep 2023",
+    title:
+      "Junior Front-End Developer <span> Nexstack Pte Ltd (Singapore) </span>",
+    desc: "<ul><li>Contributed to the development of responsive web applications using HTML5, CSS3, and Next.js.</li><li>Implemented new features and functionality for CRM and sales portal websites using Next.js, Strapi CMS, and CSS-in-JS (@emotion/react) for styling.</li><li>Integrated REST and GraphQL APIs into web applications; tested REST endpoints using Postman and explored GraphQL APIs via GraphQL Playground.</li><li>Collaborated with UI/UX designers, backend developers, and QA teams to translate designs into functional web applications and enhance overall website functionality.</li><li>Participated in Agile development practices, contributing to timely and efficient project delivery.</li></ul> ",
   },
 
   {
     id: 3,
     category: "education",
     icon: <FaGraduationCap />,
-    year: "Dec 2015",
+    year: "Feb 2022 - Oct 2023",
+    title: "Level 4 Diploma in Computing <span> NCC Education </span>",
+    desc: "<ul><li>Diploma earned after completing the L4DC program, focus on websites, databases, and soft skills for computing.</li></ul>",
+  },
+
+  {
+    id: 4,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "Dec 2015 - Mar 2019",
     title: "Computer Engineering and Information Technology <span> YTU </span>",
-    desc: "<ul><li>A member of the YTU SE Team and my role is to create database design using MySQL.</li></ul>",
+    desc: "",
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: "HTML",
+    title: "HTML5",
     icon: <FaHtml5 />,
   },
 
   {
     id: 2,
-    title: "CSS",
+    title: "CSS3",
     icon: <FaCss3 />,
   },
   {
@@ -187,6 +196,11 @@ export const skills = [
     id: 11,
     title: "MySQL",
     icon: <GrMysql />,
+  },
+  {
+    id: 12,
+    title: "SvelteKit",
+    icon: <TbBrandSvelte />,
   },
   // {
   //   id: 12,

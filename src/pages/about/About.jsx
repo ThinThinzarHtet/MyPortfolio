@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./about.css";
 import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/ThinThinzarHtet-Frontend-Developer-CV.pdf";
+import CV from "../../assets/ThinThinzarHtet-FrontEndDeveloper_CV.pdf";
 import Skills from "../../components/skills/Skills";
 import { resume } from "../../data";
 import ResumeItem from "../../components/resume/ResumeItem";
@@ -14,16 +14,14 @@ const About = () => {
         </h2>
         <div className="about__container">
           <p>
-            My name is <span className="name">Thin Thinzar Htet</span> and I
-            have recently completed a{" "}
-            <span className="diploma">Level 4 Diploma in Computing</span> course
-            of NCC Education. I am a passionate Front-end Web Developer on a
-            mission to turn creative visions into interactive realities. With a
-            blend of cutting-edge technology and pixel-perfect precision, I
-            bring websites to life that not only look stunning but also deliver
-            exceptional user experiences. I&apos;m always ready to learn more
-            when it comes to new things and technologies. You can check out some
-            of my work in the{" "}
+            My name is <span className="name">Thin Thinzar Htet</span> and I am
+            a passionate Front-end Web Developer on a mission to turn creative
+            visions into interactive realities. With a blend of cutting-edge
+            technology and pixel-perfect precision, I bring websites to life
+            that not only look stunning but also deliver exceptional user
+            experiences. I&apos;m always ready to learn more when it comes to
+            new things and technologies. You can check out some of my work in
+            the{" "}
             <Link to="/project">
               <span className="link">Projects</span>
             </Link>{" "}

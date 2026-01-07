@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import {
@@ -14,6 +14,7 @@ import { FiSend } from "react-icons/fi";
 import "./contact.css";
 const Contact = () => {
   const form = useRef();
+
   const serviceId = import.meta.env.VITE_MAIL_JS_SERVICE_ID;
   const templateId = import.meta.env.VITE_MAIL_JS_TEMPLATE_ID;
 
@@ -21,16 +22,26 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    const username = form.current.username.value.trim();
+    const email = form.current.email.value.trim();
+    const message = form.current.message.value.trim();
 
-    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-    alert("Email already sent!");
+    // Simple validation
+    if (!username || !email || !message) {
+      alert("Please fill in all fields before sending the message!");
+      return;
+    } else {
+      emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+        (result) => {
+          console.log(result.text);
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      alert("Email already sent!");
+    }
   };
 
   return (
@@ -65,7 +76,7 @@ const Contact = () => {
           </div>
           <div className="contact__socials">
             <a
-              href="https://www.facebook.com/thin.thinzar.33"
+              href="https://www.facebook.com/thin.thinzar.htet.138562"
               className="contact__social-link"
             >
               <FaFacebookF />
@@ -87,7 +98,9 @@ const Contact = () => {
         <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="form__input-group">
             <div className="form__input-div">
+              <label htmlFor="name">Name</label>
               <input
+                id="name"
                 type="text"
                 placeholder="Your Name"
                 className="form__control"
@@ -96,7 +109,9 @@ const Contact = () => {
             </div>
 
             <div className="form__input-div">
+              <label htmlFor="email">Email</label>
               <input
+                id="email"
                 type="email"
                 placeholder="Your Email"
                 className="form__control"
@@ -106,7 +121,9 @@ const Contact = () => {
           </div>
 
           <div className="form__input-div">
+            <label htmlFor="message">Message</label>
             <textarea
+              id="message"
               placeholder="Your Message"
               className="form__control textarea"
               name="message"
