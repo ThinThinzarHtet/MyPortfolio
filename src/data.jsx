@@ -102,7 +102,7 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "Mar 2024 - Present",
+    year: "Mar 2024 - Feb 2026",
     title: "Front-End Developer <span> Thibi.co </span>",
     desc: "<ul><li>Developed responsive scrollytelling and data visualization websites using HTML5, CSS3, and JavaScript frameworks (SvelteKit and Next.js).</li><li>Collaborated closely with UI/UX designers to translate visual concepts into functional and dynamic web pages, ensuring alignment with brand standards and user expectations.</li><li>Optimized website performance through code refactoring and frontend best practices.</li></ul> ",
   },
