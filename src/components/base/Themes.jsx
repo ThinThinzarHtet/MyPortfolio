@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { themes } from "../../data";
 import { FaCog } from "react-icons/fa";
 
@@ -47,7 +47,7 @@ const Themes = () => {
     document.documentElement.style.setProperty("--first-color", color.color);
     document.documentElement.style.setProperty(
       "--shadow-first-color",
-      color.shadow
+      color.shadow,
     );
     localStorage.setItem("color", JSON.stringify(color));
   }, [color]);
